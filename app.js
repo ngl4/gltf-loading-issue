@@ -49,7 +49,7 @@ if (WEBGL.isWebGLAvailable() === false) {
 
   //load glTF model/scene
   var loader = new THREE.GLTFLoader();
-  loader.load("robot/scene.gltf", function(gltf) {
+  loader.load("fish_hologram/scene.gltf", function(gltf) {
       console.log(gltf);
     //handle load file here
     gltf.scene.traverse(function(child) {
